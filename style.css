@@ -34,7 +34,7 @@ background: blanchedalmond;
     position: relative;
     grid-column: span 4;
     user-select: none;
-    overflow: none;
+    overflow: hidden;
     width: 280px;
     box-shadow: 5px 5px 10px rgb(239, 234, 234),
  -5px -5px 20px #fff;
