@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+    box-sizing: border-box;
+    font-family: consolas;
+}
+body{
+    display: flex;
+    justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: blanchedalmond;
+
+}
+.Calculator{
+     position: relative;
+     width: 340px;
+     padding: 30px;
+     box-shadow: 5px 5px 20px rgb(0, 0, 0),
+     -5px -5px 20px #f3ffff;
+     border-radius: 10px;
+     background-color:rgb(158, 177, 175);
+
+    }
+.Calculator .buttons{
+    position: relative;
+    display: grid;
+    row-gap: 20px;
+    
+    
+}
+#value{
+    position: relative;
+    grid-column: span 4;
+    user-select: none;
+    overflow: none;
+    width: 280px;
+    box-shadow: 5px 5px 10px rgb(239, 234, 234),
+ -5px -5px 20px #fff;
+    text-align: end;
+    background-color: rgb(178, 190, 181);
+    color:#050505 ;
+    height: 100px;
+    line-height: 100px;
+    
+    
+    border-radius: 10px;
+    margin-bottom: 12px;
+    padding: 0 20px;
+    font-size: 2em;
+    font-weight: 500px;
+}
+
+
+.Calculator .buttons span{
+    user-select: none;
+    cursor: pointer; position: relative;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 2px 2px 5px rgb(206, 235, 231),
+    -5px -5px 10px rgb(203, 202, 202);
+    min-width: 40px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    color:rgb(251, 248, 253);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100px ;
+   
+   
+}
+
+#clear{ 
+    position: relative;
+    grid-column: span 2;
+   width: 150px;
+}
+
+    
+
+#minus, #plus{
+    position: relative;
+    grid-column: span 1;
+    width: 75px;
+}
+#equal{
+    width: 75px;
+    background-color: rgb(80, 146, 124);
+}
+
+#clear:hover{
+    opacity: 75%;
+    color: darkgray;
+   background-color: rgb(254, 254, 254);
+   font-size: large;
+}
+#clear:active{
+    color: crimson;
+    
+}
+#Backward:hover{
+    opacity: 75%;
+    color: darkgray;
+   background-color: rgb(254, 254, 254);
+   font-size: large;
+}
+#equal:hover{
+    opacity: 75%;
+    color: darkgray;
+   background-color: rgb(254, 254, 254);
+   font-size: large;
+}
+#Backward:active{
+    color: crimson;
+    
+}#equal:active{
+    color: rgb(15, 165, 246);
+    
+}
+ 
+#plus:hover {
+    color: darkmagenta;
+    background-color: #f3ffff;
+
+}
+
+#minus:hover {
+    color: darkmagenta;
+    background-color: #f3ffff;
+
+}
